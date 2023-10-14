@@ -4,4 +4,4 @@
 
 - Simple bind feature of class component to template component.
 
--Use of placeholder '{{<attribute_name>}}
+- Use of placeholder '{{<attribute_name>}}
