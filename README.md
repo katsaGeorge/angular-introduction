@@ -1,5 +1,11 @@
 # Introduction to Angular Framework
 
+## 5. Event Binding  (template -> controller)
+
+- Click Handlers
+- Input Handler
+- Two way binding 
+
 ## 4. *ngFor Directive
 
 - 
