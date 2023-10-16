@@ -1,6 +1,5 @@
 <ng-container *ngIf="person; else nodata">
-    <p>Here are more detatils</p>
-
+    <hr/>
 <table>
     <tr>
         <td class="header">Firstname</td>
@@ -13,6 +12,10 @@
     <tr>
         <td class="header">Age</td>
         <td>{{person.age}}</td>
+    </tr>
+    <tr>
+        <td class="header">Age</td>
+        <td>{{person.email}}</td>
     </tr>
     <tr>
         <td class="header">Address</td>

@@ -15,6 +15,7 @@ export class PersonComponent {
     givenName : "The pesron first name",
     surName : "The person lastname",
     age :34,
+    email:"email of the person",
     address: "Athens",
   }
 }
