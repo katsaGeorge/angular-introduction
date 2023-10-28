@@ -15,7 +15,7 @@
     </div>
     <!--  surName -->
     <div class="form-group">
-        <label for="surName" class="form-label">Given Name</label>
+        <label for="surName" class="form-label">Surname</label>
         <input type="text"
                name="surName"
                class="form-control"
@@ -41,7 +41,7 @@
     </div>
     <!-- Email -->
     <div class="form-group">
-        <label for="email" class="form-label">Given Name</label>
+        <label for="email" class="form-label">Email</label>
         <input type="email"
                name="email"
                class="form-control"
@@ -54,7 +54,7 @@
     </div>
     <!-- Address -->
     <div class="form-group">
-        <label for="address" class="form-label">Given Name</label>
+        <label for="address" class="form-label">Address</label>
         <input type="text"
                name="address"
                class="form-control"
@@ -67,23 +67,19 @@
     </div>
     <!-- Photo Url -->
     <div class="form-group">
-        <label for="photoUrl" class="form-label">Given Name</label>
+        <label for="photoUrl" class="form-label">Photo Url</label>
         <input type="text"
                name="photoUrl"
                class="form-control"
                formControlName="photoUrl"            
         >
-        <div class="text-danger"
-        *ngIf="form.get('photoUrl')?.invalid && form.get('photoUrl')?.touched"
-        >
-    photoUrl is required</div>
-    </div>
+        </div>
         <!-- Submit  -->
         <div class="form-group">
             <button (click)="onSubmit()"
                 [disabled]="!form.valid" 
                 class="btn btn-primary">
-                
+                Submit
             </button>
         </div>
 </form>

@@ -25,5 +25,6 @@ export class ReactiveFormComponent {
   onSubmit(){
     console.log(this.form.value);
     this.person.emit(this.form.value as Person)
+    this.form.reset();
   }
 }
