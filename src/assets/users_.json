@@ -4,19 +4,19 @@
       "id": 4,
       "givenName": "Jill",
       "surName": "Brown",
-      "age": 42,
+      "age": "56",
       "email": "jill.brown@example.com",
       "address": "456 Park Ave",
-      "photoURL": "https://i.pravatar.cc/?img=4"
+      "photoUrl": ""
     },
     {
       "id": 5,
       "givenName": "Jake",
       "surName": "Smith",
-      "age": 36,
+      "age": "87",
       "email": "jake.smith@example.com",
       "address": "789 Broadway",
-      "photoURL": "https://i.pravatar.cc/?img=5"
+      "photoUrl": ""
     },
     {
       "id": 6,
@@ -40,7 +40,7 @@
       "id": 8,
       "givenName": "Julie",
       "surName": "Johnson",
-      "age": 48,
+      "age": "76",
       "email": "julie.johnson@example.com",
       "address": "321 Oak St",
       "photoURL": "https://i.pravatar.cc/?img=8"
