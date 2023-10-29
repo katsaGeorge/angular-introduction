@@ -1,24 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "givenName": "John",
-      "surName": "Doe",
-      "age": 30,
-      "email": "john.doe@example.com",
-      "address": "123 Main St",
-      "photoURL": "https://i.pravatar.cc/?img=1"
-    },
-    {
-      "id": 2,
-      "givenName": "Jane",
-      "surName": "Doe",
-      "age": 28,
-      "email": "jane.doe@example.com",
-      "address": "123 Main St",
-      "photoURL": "https://i.pravatar.cc/?img=2"
-    },
-    {
       "id": 3,
       "givenName": "Jim",
       "surName": "Brown",
@@ -134,15 +116,6 @@
       "address": "Αρχιπελάγους 2",
       "photoUrl": "",
       "id": 15
-    },
-    {
-      "givenName": "KOstas",
-      "surName": "Mathioulakis",
-      "age": "23",
-      "email": "Katsa#@gmail.com",
-      "address": "Athens ",
-      "photoUrl": "",
-      "id": 16
     },
     {
       "givenName": "Kostasa",
