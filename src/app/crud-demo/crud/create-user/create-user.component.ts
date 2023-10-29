@@ -2,7 +2,7 @@ import { Component, EventEmitter, Inject, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Person } from 'src/app/interfaces/person';
 import { AppService } from 'src/app/app.service';
-import { ReactiveFormComponent } from "../../reactive-form/reactive-form.component";
+import { ReactiveFormComponent } from "../../../reactive-form/reactive-form.component";
 
 @Component({
     selector: 'app-create-user',
