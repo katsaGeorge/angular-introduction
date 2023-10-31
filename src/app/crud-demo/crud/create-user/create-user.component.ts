@@ -2,14 +2,14 @@ import { Component, EventEmitter, Inject, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Person } from 'src/app/interfaces/person';
 import { AppService } from 'src/app/app.service';
-import { ReactiveFormComponent } from "../../../reactive-form/reactive-form.component";
+import { CrudUserFormComponent } from '../../utils/crud-user-form/crud-user-form.component';
 
 @Component({
     selector: 'app-create-user',
     standalone: true,
     templateUrl: './create-user.component.html',
     styleUrls: ['./create-user.component.css'],
-    imports: [CommonModule, ReactiveFormComponent]
+    imports: [CommonModule, CrudUserFormComponent]
 })
 export class CreateUserComponent {
   @Output() userCreated = new EventEmitter();
